@@ -8,6 +8,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("", views.home),
     path("first_app/",include("first_app.urls")),
-    path('contact/', views.contact)
+    # path('contact/', views.contact)
     
 ]
